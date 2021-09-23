@@ -5,6 +5,8 @@ const { v4: uuidv4 } = require("uuid");
 const { json, urlencoded } = require("body-parser");
 const morgan = require("morgan");
 
+const port = process.env.PORT || 3000
+
 const app = express();
 
 //disable the X-Powered-By header. 默认启用,会返回有关服务器信息的header
@@ -139,6 +141,6 @@ app.post("/api/timers/stop", (req, res) => {
   });
 });
 
-app.listen(3000, () => {
-  console.log("server runing in port 3000");
+app.listen(port, () => {
+  console.log(`server runing in port ${port}`);
 });
