@@ -1,0 +1,109 @@
+.title {
+  text-align: center;
+  border-bottom: 1px solid #333;
+  padding: 1rem;
+}
+
+.timer {
+  width: 290px;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+.timer .content {
+  padding: 0.5rem;
+  box-shadow: 0px 0px 0px 1px rgb(206, 206, 206) inset;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+.timer .content .t-title,
+.timer .content .project {
+  padding: 4px;
+  margin: 0.5rem 0;
+}
+.timer-action-button {
+  text-align: center;
+  box-shadow: 0px 0px 0px 1px #21ba45 inset;
+  color: #21ba45;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0 0 0.25rem 0.25rem;
+  cursor: pointer;
+}
+
+.timer-action-button.stop {
+  box-shadow: 0px 0px 0px 1px #db2828 inset;
+  color: #db2828;
+}
+
+.time {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.action {
+  text-align: right;
+  margin: 0.5rem 0;
+}
+
+.action i {
+  color: #333;
+  padding: 6px;
+}
+
+.toggleCreateForm {
+  margin: 0 auto;
+  width: 290px;
+  text-align: center;
+}
+.toggleCreateForm i {
+  padding: 15px;
+  border: 1px solid rgb(167, 167, 167);
+  margin-bottom: 1rem;
+}
+
+i {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.timer-form {
+  margin: 0 auto;
+  width: 290px;
+  box-shadow: 0px 0px 0px 1px rgb(206, 206, 206) inset;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.timer-form-action {
+  display: flex;
+  width: 290px;
+  margin: 0 auto;
+}
+
+.timer-form-action > div {
+  flex-basis: 50%;
+}
+
+.submit {
+  box-shadow: 0px 0px 0px 1px #21ba45 inset;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.cancel {
+  box-shadow: 0px 0px 0px 1px #db2828 inset;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+} 
+
+.field {
+  display: flex;
+  align-items: center;
+  padding: .5rem;
+}
+
+.field label {
+  width: 90px;
+}
