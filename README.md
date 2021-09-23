@@ -22,3 +22,25 @@ app.get("/api/timers", (req, res) => {
 ```
 
 - 提供RESTFUL API
+``` json
+
+// timers 数据结构
+[
+  {
+    "id": "d2d4bc3d-6a57-4a0f-84d6-4288c7e8f3ea",
+    "title": "213",
+    "project": "213",
+    "elapsed": 23943,
+    "runningSince": null
+  },
+  {
+    "id": "277b577c-32d2-43f0-9d5a-518e193db73f",
+    "title": "213",
+    "project": "123",
+    "elapsed": 0,
+    "runningSince": null
+  }
+]
+```
+GET `/api/timers`: 获取所有timers
+`api`
