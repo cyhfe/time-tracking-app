@@ -26,7 +26,7 @@ app.get("/api/timers", (req, res) => {
 ```
 
 - 提供RESTFUL API
-``` json
+``` javascript
 
 // timers json结构
 [
