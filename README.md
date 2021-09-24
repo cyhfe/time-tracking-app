@@ -4,6 +4,9 @@
 
 [在线演示（Live-Demo）](https://timer-tracking-app.herokuapp.com/): 使用heroku部署。
 
+你可以创建一个任务, 添加title, project.
+你可以随时开始计时, 刷新页面也不会影响计时,直到你点击结束计时.保存任务所耗费的时间.
+
 ## 后端
 使用express框架
 - 提供静态文件
